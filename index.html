@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Weather | The Upside Down</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Benguiat+ITC&family=Merriweather:wght@900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="custom-cursor"></div>
+
+    <canvas id="particle-canvas"></canvas>
+
+    <div class="container">
+        <div class="christmas-lights">
+            <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+            <div class="bulb"></div><div class="bulb"></div>
+        </div>
+
+        <h1 class="flicker-text">Strange<br>Weather</h1>
+
+        <div class="input-group">
+            <input type="text" id="city-input" placeholder="Enter city name..." autocomplete="off">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="status-msg"></div>
+
+        <div id="weather-display">
+            <div class="temp" id="temp-val">--°</div>
+            <div class="description" id="weather-desc">--</div>
+            <div class="details">
+                <div class="detail-item">
+                    <strong id="humidity-val">--%</strong>
+                    Humidity
+                </div>
+                <div class="detail-item">
+                    <strong id="wind-val">-- km/h</strong>
+                    Wind
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Created by <span class="creator-name">Manikanta J</span></p>
+            <div class="social-links">
+                <a href="https://github.com/Manikanta2-bit" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/manikanta-j-87741a32a" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_.maniiee._reddy_/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
